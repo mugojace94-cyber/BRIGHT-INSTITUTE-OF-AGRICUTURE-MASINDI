@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Institute Of Agriculture Masindi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        header { background-color: #2E8B57; color: white; padding: 20px 0; text-align: center; }
+        nav { display: flex; justify-content: center; background-color: #3CB371; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; padding: 15px 0; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 60px 20px; }
+        .hero { background: url('https://images.unsplash.com/photo-1590471562621-33a3b86e96b3') no-repeat center center/cover; color: white; text-align: center; padding: 150px 20px; }
+        .hero button { padding: 15px 30px; background-color: #32CD32; border: none; color: white; font-size: 20px; cursor: pointer; border-radius: 5px; margin-top: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+        .card { border: 1px solid #ddd; border-radius: 10px; padding: 20px; text-align: center; background-color: #f5f5f5; }
+        .card img { width: 100%; border-radius: 10px; height: 180px; object-fit: cover; }
+        footer { background-color: #2E8B57; color: white; text-align: center; padding: 20px; }
+        @media (max-width: 768px) { .hero { padding: 100px 20px; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bright Institute Of Agriculture Masindi</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#research">Research & Farm</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to Bright Institute Of Agriculture Masindi</h2>
+    <p>Empowering the next generation of agricultural leaders</p>
+    <button onclick="window.location.href='#contact'">Contact Us</button>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Bright Institute Of Agriculture Masindi is a premier institution dedicated to <strong>training, research, and sustainable farming practices</strong>. We empower students, farmers, and entrepreneurs with the knowledge and skills needed to excel in modern agriculture.</p>
+</section>
+
+<section id="courses">
+    <h2>Our Courses</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1573495612937-cf8f9dfe8b21" alt="Farming Techniques">
+            <h3>Farming Techniques</h3>
+            <p>Learn modern and traditional farming methods for high yield and sustainability.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1581091012184-13b0f0d03312" alt="Agricultural Research">
+            <h3>Agricultural Research</h3>
+            <p>Participate in research projects focused on improving crop and livestock production.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1587307035005-60f13f490f82" alt="Agro-Business">
+            <h3>Agro-Business</h3>
+            <p>Develop skills in marketing, supply chain, and farm management for commercial success.</p>
+        </div>
+    </div>
+</section>
+
+<section id="research">
+    <h2>Research & Farm Activities</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1602948335692-1d0d0cfcfc3d" alt="Research Project">
+            <h3>Field Research</h3>
+            <p>Innovative research projects to enhance sustainable agriculture practices.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1593720219194-90742aee398d" alt="Farm Activities">
+            <h3>Farm Activities</h3>
+            <p>Hands-on farming experience for students and agricultural enthusiasts.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@brightagriculture.ac.ug</p>
+    <p>Phone: +256 700 000 000</p>
+    <p>WhatsApp Director: <a href="https://wa.me/256772460955" target="_blank">0772460955</a></p>
+    <p>WhatsApp Co-Director: <a href="https://wa.me/256774121456" target="_blank">0774121456</a></p>
+</section>
+
+<footer>
+    &copy; 2026 Bright Institute Of Agriculture Masindi. All rights reserved.
+</footer>
+
+</body>
+</html>
